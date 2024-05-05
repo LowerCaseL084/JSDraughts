@@ -1,0 +1,73 @@
+
+.board
+{
+	width: 512px;
+	height: 512px;
+	border: 16px solid black;
+	justify-content: center;
+	align-items: center;
+	display: block;
+}
+.start_button
+{
+	position:relative;
+	left:50%;
+	width :64px;
+	height:32px;
+	margin-left:-32px;
+}
+.square
+{
+	position: relative;
+	width: 64px;
+	height: 64px;
+	display: flex;
+	box-sizing: border-box;
+	justify-content: center;
+	align-items: center;
+	float: left;
+}
+.light_square
+{
+	background-color: lightgreen;
+}
+.dark_square
+{
+	background-color: green;
+}
+
+.piece
+{
+	position: relative;
+	width: 48px;
+	height: 48px;
+	display: flex;
+	box-sizing: border-box;
+	justify-content: center;
+	align-items: center;
+	border-radius: 50%;
+}
+
+.white_piece
+{
+	background-color: white;
+}
+.red_piece
+{
+	background-color: red;
+}
+.normal_piece
+{
+	border: 4px solid black;
+}
+.king_piece
+{
+	border: 4px solid yellow;
+}
+.centred_div
+{
+	width: 544px;
+	justify-items: center;
+	align-items: center;
+	display: block;
+}
